@@ -150,7 +150,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt install -y build-essential clang flex g++ gawk gcc-multilib \
-          gettext git libncurses5-dev libssl-dev python3-distutils \
+          gettext git libncurses5-dev libssl-dev python3-setuptools \
           rsync unzip zlib1g-dev python3-pyelftools python3-setuptools \
           python3-dev swig rsync
 
